@@ -12,6 +12,7 @@ public class PageController {
         return "home";
     }
 
+
     @GetMapping("/video-details")
     public String videoDetails(){
         return "video-details";
