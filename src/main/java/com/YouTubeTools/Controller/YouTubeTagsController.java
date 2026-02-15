@@ -25,7 +25,7 @@ public class YouTubeTagsController {
         return apiKey!=null && !apiKey.isEmpty();
     }
 
-    @PostMapping("/serach")
+    @PostMapping("/search")
     public String videoTags(@RequestParam ("videoTitle") String videoTitle, Model model){
 
         if(!isApiKeyConfiguried()){
@@ -47,7 +47,7 @@ public class YouTubeTagsController {
             model.addAttribute("error",e.getMessage());
             return "home";
         }
-        return null;
+        //return null;
     }
 
 }
