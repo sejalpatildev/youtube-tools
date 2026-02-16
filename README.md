@@ -3,6 +3,7 @@
 This is a full-stack web application built using Spring Boot that integrates with the YouTube Data API to fetch video details, tags, and related content.
 
 The goal of this project is to practice real-world backend development and build a project that is strong enough to showcase in interviews and on a resume.
+![Uploading image.png…]()
 
 📚 What I Learned From This Project
 
